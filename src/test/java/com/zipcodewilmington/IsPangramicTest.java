@@ -11,7 +11,8 @@ public class IsPangramicTest {
         boolean outcome = StringArrayUtils.isPangramic(array);
         Assert.assertTrue(outcome);
     }
-
+//true if all the letters of the alphabet
+    // two strings,  type out all entire alphabet, for loop, lowercase, if
     @Test
     public void testIsPangramic2() {
         String[] array = {"The", "quick", "onyx", "goblin", "jumps", "over", "the", "lazy", "dwarf"};
